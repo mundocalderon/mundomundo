@@ -4,4 +4,14 @@ class StaticController < ApplicationController
     
   end
   
+  def contact
+  
+  end
+  
+  def resume
+  end
+  
+  def portfolio
+  end
+  
 end
