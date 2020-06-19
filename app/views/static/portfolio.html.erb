@@ -3,8 +3,24 @@
 	<hr>
 	<div class="row">
 		<div class="col-md-9">
-			<p class="lead"> Listed below are samples of my work. In every case I've designed and built the projects entirely myself. To learn more about what I've done or if you have questions abotu a specific project please email me at <%= mail_to "mundocalderon@gmail.com" %> </p>
+			<p class="lead"> Listed below are samples of my work. In every case I've designed and built the projects entirely myself. To learn more about what I've done or if you have questions about a specific project please email me at <%= mail_to "mundocalderon@gmail.com" %> </p>
 			
+			<section>
+				<div class="row">		
+					<div class="col-md-5">
+						<%= link_to (image_tag "capstone_scaled.png", :class => "media-object ") , 
+												"https://capstone-production-0922.herokuapp.com/#/subjects" %>
+ 					</div>
+					<div class="col-md-7">
+						<strong><h4>Photo Mapper <small>2020</small></h4></strong>
+						<p>The photo mapper implements a Ruby on Rails web application that makes use of both a relational and NoSQL database for the backend and exposes
+							the data through services to the internet using Web Services and a responsive user interface operating in a browser from a desktop and mobile device. Users are able to create an account, upload and download photos, provide descriptions of trips and photos, organize photos by location, find photos based on location on a map, find photos based on text searches of descriptions, and locate the place where a photo was taken.
+						<br>
+						<span class="text-muted">Ruby on Rails, AngularJS, MongoDB, Google Geolocation API, Devise, PostgresQL, Bootstrap </span>
+						</p>
+					</div>
+				</div>
+			</section>
 			
 			<section>
 				<div class="row">		
@@ -73,7 +89,6 @@
 				<a href="https://github.com/mundocalderon"><i class="fa fa-github-square fa-2x"></i></a>
 				<a href="https://www.linkedin.com/in/mundomundo"><i class="fa my-fa-linkedin-square fa-2x"></i></a>
 				<a href="http://stackoverflow.com/users/923949/mundo-calderon"><i class="fa fa-stack-overflow fa-2x"></i></a>
-				<a href="https://www.facebook.com/mundocalderon"><i class="fa my-fa-facebook-square fa-2x"></i></a>
 				<a href="https://instagram.com/mundocalderon/"><i class="fa my-fa-instagram fa-2x"></i></a>
 				<a href="https://twitter.com/mundocalderon"><i class="fa my-fa-twitter-square fa-2x"></i></a>
 			</div>
